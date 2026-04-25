@@ -1,0 +1,4 @@
+Feature,Pearson's r,Pearson's r P value,Spearman,Spearman P value,Number of Nodes
+base_weight_mean,0.21,1.251e-39,0.38,1.410e-139,4034
+time_decay,0.36,1.345e-120,0.55,3.494e-318,4034
+layer_score,0.63,0.000e+00,0.8,0.000e+00,4034

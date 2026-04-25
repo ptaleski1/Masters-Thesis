@@ -1,0 +1,17 @@
+spacy==3.8.7
+scipy==1.8.0
+pyalex==0.18
+pyaltmetric==0.2.0
+numpy==1.24.4
+requests==2.32.3
+pandas==2.3.1
+scikit-learn==1.7.1
+langdetect==1.0.9
+matplotlib==3.5.1
+python-dateutil==2.9.0.post0
+
+# system package (not installable via pip):
+# graph-tool==2.97 (install with: sudo apt install python3-graph-tool)
+
+# local module, not from PyPI:
+# utils
