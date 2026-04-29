@@ -21,18 +21,31 @@ The pipeline supports running the entire workflow or specific components (e.g., 
 ├── processed_data (folder)
 
 ├── results (folder)
+
 ├── main.py
+
 ├── init.py
+
 ├── run_data_collection.py
+
 ├── run_data_processing.py
+
 ├── run_graph_and_analysis.py
+
 ├── collect_altmetric.py
+
 ├── collect_openalex.py
+
 ├── collect_overton.py
+
 ├── data_cleaning.py
+
 ├── create_edges_and_nodes.py
+
 ├── utils.py
+
 ├── readme.txt
+
 ├── requirements.txt
 
 
