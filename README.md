@@ -17,7 +17,9 @@ The pipeline supports running the entire workflow or specific components (e.g., 
 ## Folder structure
 
 ├── raw_data_collection (folder)
+
 ├── processed_data (folder)
+
 ├── results (folder)
 ├── main.py
 ├── init.py
