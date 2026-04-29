@@ -1,9 +1,11 @@
 SN: 24040933
 INST0062 24/25
 
-=============================================================================
-README - Dissertation data pipeline: Multiplicative Personalized PageRank (MPPR)
-=============================================================================
+=================================================================================
+#README - Dissertation data pipeline: Multiplicative Personalized PageRank (MPPR)
+=================================================================================
+
+**The thesis can be found in the file INST0062_24040933.pdf**
 
 This file provides instructions to run a modular pipeline for:
 (1) collecting citation data from multiple database sources (OpenAlex, Altmetric.com, and Overton APIs),
@@ -13,7 +15,7 @@ This file provides instructions to run a modular pipeline for:
 The pipeline supports running the entire workflow or specific components (e.g., data collection, data processing, graph creation, analysis and experiments).
 
 ==========================================
-Folder structure
+##Folder structure
 ==========================================
 
 24040933_INST0062_supplementary_files
@@ -35,7 +37,7 @@ Folder structure
 |-- requirements.txt
 
 ==========================================
-Dependencies Installation 
+##Dependencies Installation 
 ==========================================
 
 1. To install dependencies needed to run the pipeline, navigate to the directory of the 
@@ -51,7 +53,7 @@ Dependencies Installation
         sudo apt-get install python3-graph-tool
 
 ==========================================
------------------PIPELINE-----------------
+##-----------------PIPELINE-----------------
 ==========================================
 
 The pipeline is centralized in the main.py file, and designed to be run through command lines.
