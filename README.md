@@ -93,6 +93,7 @@ Alternatively, the entire pipeline can be run with one command:
 
 (d) To query Altmetric and Overton APIs, you will need an API key. For UCL students and staff, accounts for both platforms
     are free. Access to the OpenAlex AI is free, publicly available, and doesn't require a key.
+    
     --> For access to Altmetric's DETAILS API, UCL staff will need to contact library services, as access is not given out by default with UCL accounts.
     --> For access to Overton's API, sign up with your institutional email, and then message the Overton team for access to the API.
         API access isn't default for UCL Overton accounts.
