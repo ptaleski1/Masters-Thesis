@@ -4,7 +4,7 @@ INST0062 24/25
 # README - Dissertation data pipeline: Multiplicative Personalized PageRank (MPPR)
 
 
-**The thesis can be found in the file INST0062_24040933.pdf**
+**The thesis can be found in the file _INST0062_24040933.pdf_**
 
 This file provides instructions to run a modular pipeline for:
 (1) collecting citation data from multiple database sources (OpenAlex, Altmetric.com, and Overton APIs),
@@ -16,22 +16,22 @@ The pipeline supports running the entire workflow or specific components (e.g., 
 
 ## Folder structure
 
-|-- raw_data_collection (folder)
-|-- processed_data (folder)
-|-- results (folder)
-|-- main.py
-|-- init.py
-|-- run_data_collection.py
-|-- run_data_processing.py
-|-- run_graph_and_analysis.py
-|-- collect_altmetric.py
-|-- collect_openalex.py
-|-- collect_overton.py
-|-- data_cleaning.py
-|-- create_edges_and_nodes.py
-|-- utils.py
-|-- readme.txt
-|-- requirements.txt
+├── raw_data_collection (folder)
+├── processed_data (folder)
+├── results (folder)
+├── main.py
+├── init.py
+├── run_data_collection.py
+├── run_data_processing.py
+├── run_graph_and_analysis.py
+├── collect_altmetric.py
+├── collect_openalex.py
+├── collect_overton.py
+├── data_cleaning.py
+├── create_edges_and_nodes.py
+├── utils.py
+├── readme.txt
+├── requirements.txt
 
 
 ## Dependencies Installation 
