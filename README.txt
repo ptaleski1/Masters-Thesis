@@ -1,9 +1,8 @@
 SN: 24040933
 INST0062 24/25
 
-=================================================================================
-#README - Dissertation data pipeline: Multiplicative Personalized PageRank (MPPR)
-=================================================================================
+# README - Dissertation data pipeline: Multiplicative Personalized PageRank (MPPR)
+
 
 **The thesis can be found in the file INST0062_24040933.pdf**
 
@@ -14,11 +13,9 @@ This file provides instructions to run a modular pipeline for:
 
 The pipeline supports running the entire workflow or specific components (e.g., data collection, data processing, graph creation, analysis and experiments).
 
-==========================================
-##Folder structure
-==========================================
 
-24040933_INST0062_supplementary_files
+## Folder structure
+
 |-- raw_data_collection (folder)
 |-- processed_data (folder)
 |-- results (folder)
@@ -36,9 +33,9 @@ The pipeline supports running the entire workflow or specific components (e.g., 
 |-- readme.txt
 |-- requirements.txt
 
-==========================================
-##Dependencies Installation 
-==========================================
+
+## Dependencies Installation 
+
 
 1. To install dependencies needed to run the pipeline, navigate to the directory of the 
    24040933_INST0062_supplementary_files folder. In your command shell of choice run:
@@ -52,9 +49,9 @@ The pipeline supports running the entire workflow or specific components (e.g., 
 
         sudo apt-get install python3-graph-tool
 
-==========================================
-##-----------------PIPELINE-----------------
-==========================================
+
+## -----------------PIPELINE-----------------
+
 
 The pipeline is centralized in the main.py file, and designed to be run through command lines.
 
@@ -64,9 +61,9 @@ Alternatively, the entire pipeline can be run with one command:
 
     python3 main.py --run all
 
-*********************************
+
 1. Data collection
-*********************************
+
 
 (a) Data collection can be run as an entire process, or step-by-step by database and source order.
 
@@ -114,9 +111,9 @@ Alternatively, the entire pipeline can be run with one command:
                                 overton_second_order_alt_first_order            # alt = Altmetric
 
 
-*********************************
+
 2. Data processing
-*********************************
+
 
 (a) Data processing can be run as an entire process, or in two steps by data cleaning and/or edges and node creation.
 
@@ -142,9 +139,9 @@ Alternatively, the entire pipeline can be run with one command:
                                  nodes                       # create nodes only
 
 
-********************************************
+
 3. Graph creation, analysis and experiments
-********************************************
+
 
 (a) Graph creation and analysis is run as an entire process, not in separate steps.
 
@@ -155,3 +152,4 @@ Alternatively, the entire pipeline can be run with one command:
 (f) To run the graph creation and analysis pipeline, run in the bash shell:
 
         python3 main.py --run graph_analysis_experiments
+
