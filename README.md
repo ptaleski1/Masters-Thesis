@@ -77,7 +77,7 @@ Alternatively, the entire pipeline can be run with one command:
     python3 main.py --run all
 
 
-<u>1. Data collection</u>
+### 1. Data collection
 
 
 (a) Data collection can be run as an entire process, or step-by-step by database and source order.
@@ -127,7 +127,7 @@ Alternatively, the entire pipeline can be run with one command:
 
 
 
-<u>2. Data processing</u>
+### 2. Data processing
 
 
 (a) Data processing can be run as an entire process, or in two steps by data cleaning and/or edges and node creation.
@@ -155,7 +155,7 @@ Alternatively, the entire pipeline can be run with one command:
 
 
 
-<u>3. Graph creation, analysis and experiments</u>
+### 3. Graph creation, analysis and experiments 
 
 
 (a) Graph creation and analysis is run as an entire process, not in separate steps.
